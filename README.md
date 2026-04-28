@@ -1,5 +1,7 @@
 # Simple Calculator Monorepo
 
+**🚀 Live Preview:** [https://simple-calculator-andre.vercel.app/]
+
 This repository is now organized as a lightweight monorepo with separate frontend and backend packages.
 
 - `packages/frontend` — React + Vite calculator UI
@@ -14,16 +16,22 @@ This repository is now organized as a lightweight monorepo with separate fronten
 - Persistent history stored in JSON
 - Clean separation between frontend and backend code
 
-## Monorepo structure
-
-- `package.json` — monorepo root manifest with npm workspace config
-- `packages/frontend/package.json` — frontend app dependencies and scripts
-- `packages/frontend/src/` — React application source code
-- `packages/frontend/index.html` — Vite app entry
-- `packages/frontend/vite.config.js` — Vite configuration
-- `packages/backend/backend.py` — FastAPI backend service
-- `packages/backend/requirements.txt` — Python backend dependencies
-- `packages/backend/history.json` — persisted calculator history
+## 📂 Folder Structure
+```
+📦 simple-calculator-monorepo
+├── 📄 README.md
+├── ⚙️ package.json             # Root monorepo workspace config
+└── 📂 packages/
+    ├── 🎨 frontend/            # React + Vite UI
+    │   ├── ⚙️ package.json     # Frontend dependencies
+    │   ├── 🌐 index.html       # App entry point
+    │   ├── 🔒 .env* # Environment variables
+    │   └── 📁 src/             # React components & styles
+    └── 🐍 backend/             # FastAPI service
+        ├── 📜 backend.py       # API endpoints & logic
+        ├── 📋 requirements.txt # Python dependencies
+        └── 💾 history.json     # Persisted calculation history
+```
 
 ## Requirements
 
