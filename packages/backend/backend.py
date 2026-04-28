@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-history_path = Path("history.json")
+history_path = Path(__file__).resolve().parent / "history.json"
 if not history_path.exists():
     history_path.write_text("[]", encoding="utf-8")
 

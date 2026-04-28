@@ -141,3 +141,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python backend cache
+packages/backend/__pycache__/
+**/__pycache__/
+**/*.py[cod]
+
+# Local env overrides
+packages/frontend/.env.local
+
+# Ignore the history file that stores past calculations, as it is generated and updated by the backend.
+/history.json

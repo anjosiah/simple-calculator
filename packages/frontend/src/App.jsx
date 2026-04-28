@@ -136,8 +136,14 @@ function App() {
     return window.matchMedia?.("(prefers-color-scheme: dark)").matches || false;
   });
 
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
+    ? import.meta.env.VITE_API_BASE_URL.replace(/\/+$|\s+/g, "")
+    : "/api";
+
+  const buildApiPath = (path) => `${API_BASE_URL}${path}`;
+
   useEffect(() => {
-    fetch("/api/history")
+    fetch(buildApiPath("/history"))
       .then((response) => response.json())
       .then((data) => setHistory(data || []))
       .catch(() => setHistory([]));
@@ -159,7 +165,7 @@ const saveHistory = async (entry) => {
     setHistory(nextHistory);
 
     try {
-      await fetch("/api/history", {
+      await fetch(buildApiPath("/history"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(entry),
