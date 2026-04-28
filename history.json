@@ -1,0 +1,102 @@
+[
+  {
+    "expression": "13424234242556576 + 23",
+    "result": "13424234242556600",
+    "timestamp": "2026-04-28T16:09:37.986Z"
+  },
+  {
+    "expression": "13424234242324444 + 232131",
+    "result": "13424234242556576",
+    "timestamp": "2026-04-28T16:03:53.450Z"
+  },
+  {
+    "expression": "0 \u00d7 5",
+    "result": "0",
+    "timestamp": "2026-04-28T15:57:01.390Z"
+  },
+  {
+    "expression": "square(1.1579208923731938e-179)",
+    "result": "0",
+    "timestamp": "2026-04-28T15:17:12.221Z"
+  },
+  {
+    "expression": "square(3.4028236692094315e-90)",
+    "result": "1.1579208923731938e-179",
+    "timestamp": "2026-04-28T15:17:12.079Z"
+  },
+  {
+    "expression": "square(1.844674407370968e-45)",
+    "result": "3.4028236692094315e-90",
+    "timestamp": "2026-04-28T15:17:11.935Z"
+  },
+  {
+    "expression": "square(4.294967296000015e-23)",
+    "result": "1.844674407370968e-45",
+    "timestamp": "2026-04-28T15:17:11.793Z"
+  },
+  {
+    "expression": "square(6.553600000000011e-12)",
+    "result": "4.294967296000015e-23",
+    "timestamp": "2026-04-28T15:17:11.627Z"
+  },
+  {
+    "expression": "square(0.000002560000000000002)",
+    "result": "6.553600000000011e-12",
+    "timestamp": "2026-04-28T15:17:11.442Z"
+  },
+  {
+    "expression": "square(0.0016000000000000007)",
+    "result": "0.000002560000000000002",
+    "timestamp": "2026-04-28T15:17:11.028Z"
+  },
+  {
+    "expression": "square(0.04000000000000001)",
+    "result": "0.0016000000000000007",
+    "timestamp": "2026-04-28T15:17:09.603Z"
+  },
+  {
+    "expression": "square(0.2)",
+    "result": "0.04000000000000001",
+    "timestamp": "2026-04-28T15:17:07.424Z"
+  },
+  {
+    "expression": "reciprocal(5)",
+    "result": "0.2",
+    "timestamp": "2026-04-28T15:17:05.795Z"
+  },
+  {
+    "expression": "reciprocal(0.2)",
+    "result": "5",
+    "timestamp": "2026-04-28T15:17:03.173Z"
+  },
+  {
+    "expression": "reciprocal(5)",
+    "result": "0.2",
+    "timestamp": "2026-04-28T15:17:01.560Z"
+  },
+  {
+    "expression": "reciprocal(0.2)",
+    "result": "5",
+    "timestamp": "2026-04-28T15:17:00.767Z"
+  },
+  {
+    "expression": "reciprocal(5)",
+    "result": "0.2",
+    "timestamp": "2026-04-28T15:16:58.582Z"
+  },
+  {
+    "expression": "0 \u00f7 1",
+    "result": "0",
+    "timestamp": "2026-04-28T15:16:45.861Z"
+  },
+  {
+    "expression": "15345 \u00d7 574",
+    "result": "8808030",
+    "timestamp": "2026-04-28T15:16:40.677Z"
+  },
+  {
+    "expression": "15 \u00d7 1023",
+    "result": "15345",
+    "timestamp": "2026-04-28T15:16:36.275Z"
+  }
+]
