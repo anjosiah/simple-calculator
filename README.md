@@ -2,7 +2,7 @@
 
 **🚀 Live Preview:** [https://simple-calculator-andre.vercel.app/]
 
-This repository is now organized as a lightweight monorepo with separate frontend and backend packages.
+This repository is a lightweight monorepo with separate frontend and backend packages.
 
 - `packages/frontend` — React + Vite calculator UI
 - `packages/backend` — FastAPI history persistence service
